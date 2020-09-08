@@ -1,5 +1,137 @@
-body{
+/* font-family: 'Cabin', sans-serif; */
+*{
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    
+    font-family: 'Cabin', sans-serif;
+}
+
+header{
+    background-image: url(images/bg_big.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+
+.section_nav{
+    margin: 0 auto;
+    width: 80%;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+    border: 1px solid red;
+}
+
+/* LOGO_TOP_LEFT */
+
+.nav_logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.nav_logo, .nav_logo img{
+    font-size: 40px;
+    font-weight: bold;
+    height: 80px;
+}
+
+/* NAV TOP RIGHT */
+
+.nav_navigation-ul{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+
+    border: 1px solid yellow;
+}
+
+.nav_navigation-ul li {
+    list-style: none;
+}
+.nav_navigation-ul a {
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+/* BURGER */
+
+.burger div {
+    display: none;
+    width: 35px;
+    height: 3px; 
+    background-color: white;
+    margin: 8px;
+}
+
+/* HEADER SECTION */
+
+.header_text {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    column-gap: 100px;
+
+    width: 80%;
+    height: calc(100vh - 100px);
+
+    border: 1px solid orange;
+}
+
+.header_text-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header_welcome{
+    margin: 0px auto 10px auto;
+    letter-spacing: 2px;
+
+    font-size: 70px;
+}
+
+.header_welcome-text {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.header_btn{
+    display: block;
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+
+    margin: 30px 0 0 20px;
+}
+
+.header_logo{
+    height: 50vh;
+    margin: 0 20px 0 0;
+}
+
+/* MAIN  */
+
+.main_container {
+    margin: 0 auto;
+    
+    width: 80%;
+
+    height: 100vh;
+
+    border: 1px solid royalblue;
+    color: black;
 }
