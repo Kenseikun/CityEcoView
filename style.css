@@ -15,7 +15,7 @@ header{
     color: white;
 }
 
-.section_nav{
+.section_nav {
     margin: 0 auto;
     width: 80%;
     height: 100px;
@@ -25,7 +25,6 @@ header{
     align-items: center;
     color: white;
 
-    border: 1px solid red;
 }
 
 /* LOGO_TOP_LEFT */
@@ -48,9 +47,8 @@ header{
 .nav_navigation-ul{
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    width: 60%;
 
-    border: 1px solid yellow;
 }
 
 .nav_navigation-ul li {
@@ -58,9 +56,18 @@ header{
 }
 .nav_navigation-ul a {
     color: white;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 300;
     text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+.nav_navigation-ul a:hover{
+    background-color: #15E8D3;
+    color: black;
 }
 
 /* BURGER */
@@ -84,7 +91,6 @@ header{
     width: 80%;
     height: calc(100vh - 100px);
 
-    border: 1px solid orange;
 }
 
 .header_text-section{
@@ -113,9 +119,17 @@ header{
     background-color: transparent;
     font-size: 20px;
     color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
     cursor: pointer;
 
     margin: 30px 0 0 20px;
+}
+
+
+.header_btn:hover{
+background-color: #15E8D3;
+color: black;
 }
 
 .header_logo{
@@ -126,12 +140,100 @@ header{
 /* MAIN  */
 
 .main_container {
-    margin: 0 auto;
+    margin: 20px auto 20px auto;
     
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
     width: 80%;
 
-    height: 100vh;
-
-    border: 1px solid royalblue;
-    color: black;
 }
+
+.main_text-container {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.main_tile{
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.main_tile::before{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left:50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background-color: #15E8D3;
+}
+
+.main_text-bottom{
+    font-weight: bold;
+}
+
+.main_logo{
+    height: 250px;
+    }
+
+    /* FUNCTIONALITY */
+
+.functionality{
+        padding-bottom: 20px;
+        background-color: #f8f9fa;
+    }
+
+.section_container{
+        margin: 0 auto;
+        text-align: center;
+        width: 80%;
+    }
+
+.func_title{
+        position: relative;
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+.func_title::before{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left:50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background-color: #15E8D3;
+    }
+
+.func_text{
+        margin: 20px auto;
+    }
+
+.func_elements {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+.func_elements div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 450px;
+        height: 450px;
+        padding: 20px;
+        background-color: white;
+        box-shadow: 7px 7px 10px 0 rgba(76, 110, 245, .1);
+    }
+
+.func_elements div img {
+        height: 400px;
+    }
