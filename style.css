@@ -360,24 +360,24 @@ background-color: #15E8D3;
     
     /* TEAM  */
 
-    .example{
+    .team{
         padding-bottom: 20px;
     }
     
-    .example_container{
+    .team_container{
         margin: 0 auto;
         text-align: center;
         width: 80%;
     }
     
-    .example_title{
+    .team_title{
         position: relative;
         font-size: 40px;
         font-weight: bold;
         margin-top: 20px;
     }
     
-    .example_title::before{
+    .team_title::before{
     content: "";
     position: absolute;
     bottom: -10px;
@@ -388,33 +388,38 @@ background-color: #15E8D3;
     background-color: #15E8D3;
     }
     
-    .example_text{
+    .team_text{
         margin: 20px auto;
     }
     
-    .example_elements {
+    .team_elements {
         display: flex;
         justify-content: space-around;
         width: 100%;
     }
     
-    .example_elements div{
+    .team_elements div{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 30px auto;
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         padding: 20px;
         background-color: white;
         box-shadow: 7px 7px 10px 0 rgba(76, 110, 245, .1);
     }
     
-    .example_elements div img {
-        height: 250px;
+    .team_elements div img {
+        height: 150px;
     }
     
-    .example_elements .e_text {
+    .team_elements .t_text {
         margin: 10px auto;
     }
+
+.team_text{
+    font-weight: bold;
+    font-size: 18px;
+}
