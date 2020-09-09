@@ -21,15 +21,15 @@ const formPrevet = () => {
 
 formPrevet()
 
-const navSticky = () => {
-    const navigate = document.querySelector(".section_nav");
+// const navSticky = () => {
+//     const navigate = document.querySelector(".section_nav");
 
-    window.addEventListener("scroll", function () {
-        if (window.innerWidth > 768 && window.scrollY > 100) {
-            navigate.classList.add("nav_sticky");
-        } else {
-            navigate.classList.remove("nav_sticky");
-        }
-    });
-}
-navSticky()
+//     window.addEventListener("scroll", function () {
+//         if (window.innerWidth > 1050 && window.scrollY > 100) {
+//             navigate.classList.add("nav_sticky");
+//         } else {
+//             navigate.classList.remove("nav_sticky");
+//         }
+//     });
+// }
+// navSticky()
