@@ -476,7 +476,7 @@ background-color: #15E8D3;
 
     /* MEDIAS  */
 
-    .medias{
+.medias{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -484,7 +484,7 @@ background-color: #15E8D3;
         height: 200px;
     }
 
-    .medias a {
+.medias a {
         color: white;
         font-size: 80px;
         margin: 20px;
@@ -492,7 +492,26 @@ background-color: #15E8D3;
         transition: .3s;
     }
 
-    .medias a:hover {
+.medias a:hover {
         font-size: 100px;
         text-shadow: 1px 1px 2px black;
     }
+
+    /* FOOTER  */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #212020;
+    }
+
+.footer a {
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    }
+
+.footer a:hover {
+    color: gray;
+}
