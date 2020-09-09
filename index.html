@@ -27,11 +27,11 @@
                 <li><a href="/">Contact</a></li>
             </ul>
 
-            <!-- <div class="burger">
-                <div class="link1"></div>
-                <div class="link2"></div>
-                <div class="link3"></div>
-            </div> -->
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
         </nav>
 
         <section class="header_text">
@@ -202,20 +202,38 @@
     </section>
 
     <section class="medias">
-        <a href="/" class="medias_icons"><i class="fas fa-envelope"></i></i>
-        </a>
-        <a href="/" class="medias_icons"><i class="fab fa-facebook"></i>
-        </a>
-        <a href="/" class="medias_icons"><i class="fab fa-instagram-square"></i></a>
-        <a href="/" class="medias_icons"><i class="fab fa-linkedin"></i></a>
-        <a href="/" class="medias_icons"><i class="fab fa-twitter-square"></i></a>
 
+        <h4 class="medias_contact-title">Contact Us</h4>
+
+        <form action="submit" class="medias_contact">
+            <label for="text">First Name:</label>
+            <input type="text" name="text" placeholder="Full name">
+
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Email">
+
+            <label for="textarea">Your Message</label>
+            <input type="textarea" name="textarea" placeholder="Your Message">
+
+            <button class="form_button">Send Email</button>
+        </form>
+
+        <div class="medias_icons-container">
+
+            <a href="/" class="medias_icons"><i class="fas fa-envelope"></i></i>
+            </a>
+            <a href="/" class="medias_icons"><i class="fab fa-facebook"></i>
+            </a>
+            <a href="/" class="medias_icons"><i class="fab fa-instagram-square"></i></a>
+            <a href="/" class="medias_icons"><i class="fab fa-linkedin"></i></a>
+            <a href="/" class="medias_icons"><i class="fab fa-twitter-square"></i></a>
+        </div>
     </section>
 
     <footer class="footer">
-        <a href="/" class="footer_about">About Us</a>
-        <a href="/" class="footer_about">Location</a>
-        <a href="/" class="footer_about">Contact</a>
+        <a href="/" class="footer_about"><i class="fas fa-address-card"></i> About Us</a>
+        <a href="/" class="footer_about"><i class="fas fa-map-marker-alt"></i> Location</a>
+        <a href="/" class="footer_about"><i class="fas fa-envelope-open"></i> Contact</a>
 
     </footer>
 
