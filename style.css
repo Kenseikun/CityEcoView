@@ -699,7 +699,30 @@ background-color: #15E8D3;
       font-size: 30px;
   }
 
+.func_title {
+    font-size: 50px;
+}
 
+.func_text {
+    font-size: 30px;
+}
+
+.func_elements {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.func_elements div {
+    width: 700px;
+    height: 700px;
+}
+
+.func_elements div img {
+    height: 650px;
+}
+
+.e_first{margin-bottom: 20px;}
 
   .location_container {
     column-gap: 10px;
