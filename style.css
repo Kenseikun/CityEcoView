@@ -686,5 +686,6 @@ background-color: #15E8D3;
     height: 70px;
     background-color: rgb(0, 0, 0, 0.5);
     z-index: 1;
-    transition: .3s ease-in-out;
+    transition: .2s ease-in-out;
+    color:white;
 }

@@ -25,7 +25,7 @@ const navSticky = () => {
     const navigate = document.querySelector(".section_nav");
 
     window.addEventListener("scroll", function () {
-        if (window.scrollY > 100) {
+        if (window.innerWidth > 768 && window.scrollY > 100) {
             navigate.classList.add("nav_sticky");
         } else {
             navigate.classList.remove("nav_sticky");
