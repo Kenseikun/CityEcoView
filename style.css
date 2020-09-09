@@ -639,7 +639,7 @@ background-color: #15E8D3;
 }
 
 .form_button:hover {
-    background-color: rgb(61, 61, 61);
+    background-color: #212020;
 }
 
 .medias_icons-container{
@@ -675,4 +675,16 @@ background-color: #15E8D3;
 
 .footer a:hover {
     color: gray;
+}
+
+
+/* JAVASCRIPT  */
+
+.nav_sticky {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0, 0, 0, 0.5);
+    z-index: 1;
+    transition: .3s ease-in-out;
 }
