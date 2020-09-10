@@ -529,17 +529,19 @@ background-color: #15E8D3;
     
     input[type=text],
     input[type=email],
-    input[type=textarea]{
+    .textarea{
     padding: 10px 3px;
     width: 300px;
     border: 1px solid black;
     }   
    
-    input[type=textarea]{
+    .textarea{
      min-height: 300px;
     }
 
-    input:focus{
+    input[type=text]:focus,
+    input[type=email]:focus,
+    .textarea:focus{
         outline: none;
         border:1px solid #15E8D3;
     }
