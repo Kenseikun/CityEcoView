@@ -764,10 +764,10 @@ background-color: #15E8D3;
     width: 100%;
     margin: 10px auto;
 }
+
 .location_text {
     font-size: 30px;
 }
-
 
 .team_title {
     font-size: 50px;
@@ -920,6 +920,11 @@ input:focus{
 }
 
 @media (max-width: 414px){
+
+    body{
+        overflow: hidden;
+    }
+
     .nav_logo, .nav_logo img{
         height: 50px;
         font-size: 20px;
@@ -946,6 +951,141 @@ input:focus{
     width: 200px;
     height: 100px;
     margin: 20px auto;
+}
+
+.main_container {
+    flex-direction: column;
+    align-items: center;
+    width: 98%;
+}
+
+.main_title {
+    font-size: 30px;
+}
+
+.main_text-container{
+    width: 98%;
+    font-size: 20px;
+}
+
+.main_text {
+    font-size: 16px;
+    margin: 20px auto 10px auto;
+}
+
+.main_text-bottom {
+    font-size: 20px;
+}
+.func_container {
+    width: 95%;
+}
+
+.func_title {
+    font-size: 30px;
+}
+
+.func_text{
+    font-size: 16px;
+}
+
+.func_elements div {
+    width: 350px;
+    height: 350px;
+    margin: 5px auto;
+}
+
+.func_elements div img {
+    height: 300px;
+}
+
+.example_title {
+    font-size: 30px;
+}
+
+.example_elements div {
+    width: 350px;
+    height: 350px;
+}
+
+.example_elements div img {
+    height: 300px;
+}
+
+.example_elements div p {
+    font-size: 16px;
+}
+
+.location_title {
+    font-size: 30px;
+}
+.location_text {
+    font-size: 16px;
+}
+
+.team_title {
+    font-size: 30px;
+}
+
+.team_elements div {
+    width: 350px;
+    height: 350px;
+ }
+
+ .team_elements div img {
+    width: 200px;
+    height: 200px;
+}
+
+.team_text{
+    font-size: 16px;
+}
+
+.contact_container {
+    flex-direction: column;
+    align-items: center;
+    width: 98%;
+}
+
+.contact_tile{
+    font-size: 30px;
+}
+
+.contact_text {
+    font-size: 16px;
+    margin: 20px auto 10px auto;
+}
+
+.medias_contact-title{
+    font-size: 30px;
+}
+
+.medias_contact {
+    font-size: 16px;
+}
+
+input[type=text],
+input[type=email],
+input[type=textarea]{
+padding: 40px 10px;
+width: 300px;
+border: 1px solid black;
+font-size: 30px;
+}   
+
+input[type=textarea]{
+ min-height: 200px;
+}
+
+.medias_icons-container{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.medias_icons-container a{
+    font-size: 120px;
+}
+
+.footer a {
+    font-size: 12px;
 }
 
 }
