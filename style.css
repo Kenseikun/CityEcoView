@@ -659,11 +659,11 @@ background-color: #15E8D3;
 
     .nav_navigation-ul {
         position: absolute;
-        top: 100px;
+        top: 0px;
         right: 0px;
-        height: calc(100vh - 100px);
-        width: 50%;
-        background-color: rgba(0, 0, 0, 0.8);
+        height: 100vh;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
 
         flex-direction: column;
         justify-content: space-around;
@@ -671,8 +671,6 @@ background-color: #15E8D3;
 
         transform: translateX(105%);
         transition: transform 0.3s ease-in;
-
-        width: 70vw;
 
         display: none;
     }
@@ -697,11 +695,11 @@ background-color: #15E8D3;
     }
 
   .header_welcome {
-      font-size: 130px;
+      font-size: 180px;
   }
 
   .header_welcome-text {
-      font-size: 30px;
+      font-size: 40px;
   }
 
   .header_btn {
@@ -849,14 +847,14 @@ background-color: #15E8D3;
 
 input[type=text],
 input[type=email],
-input[type=textarea]{
+.textarea{
 padding: 40px 10px;
 width: 600px;
 border: 1px solid black;
 font-size: 30px;
 }   
 
-input[type=textarea]{
+.textarea{
  min-height: 300px;
 }
 
@@ -886,10 +884,15 @@ input:focus{
     body {
         overflow-x: hidden;
     }
+
+    .nav_navigation-ul a {
+        font-size: 60px;
+    }
     
     .header_welcome {
-        font-size: 80px;
+        font-size: 120px;
     } 
+
     
     .main_title{
         font-size: 40px;
@@ -977,10 +980,10 @@ input:focus{
 }
     
     .header_welcome {
-        font-size: 60px;
+        font-size: 80px;
     }
    .header_welcome-text{
-       font-size: 16px;
+       font-size: 20px;
    }
 
    .header_btn {
@@ -1102,14 +1105,14 @@ input:focus{
 
 input[type=text],
 input[type=email],
-input[type=textarea]{
+.textarea{
 padding: 40px 10px;
 width: 300px;
 border: 1px solid black;
 font-size: 30px;
 }   
 
-input[type=textarea]{
+.textarea{
  min-height: 200px;
 }
 
@@ -1140,17 +1143,20 @@ input[type=textarea]{
 
     .nav_navigation-ul{
         width: 100%;
+        align-items: flex-start;
+        justify-content: space-around;
     }
  
-    .nav_navigation-ul a {
-     font-size: 16x;
+    .nav_navigation-ul li a {
+     font-size: 30px;
+     margin-left: 10px;
  }
     
     .header_welcome {
-        font-size: 50px;
+        font-size: 70px;
     }
    .header_welcome-text{
-       font-size: 14px;
+       font-size: 18px;
    }
 
 
