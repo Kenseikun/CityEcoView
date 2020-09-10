@@ -22,7 +22,7 @@ header{
     height: 100vh;
     color: white;
 
-    transition: 0.4s;
+    transition: .5s;
 }
 
 .section_nav {
@@ -171,7 +171,7 @@ color: black;
     width: 80%;
 
     transform: translateX(-100%);
-    transition: .5s ease-in-out;
+    transition: .8s ease-in-out;
 
 }
 

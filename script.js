@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const main = document.querySelector(".main_container");
 
     window.addEventListener("scroll", () => {
-        if (window.scrollY > 2) {
+        if (window.scrollY > -20) {
             main.classList.add("animate_left");
         }
     });
