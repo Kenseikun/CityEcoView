@@ -23,6 +23,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     formPrevet()
 
+    const main = document.querySelector(".main_container");
+
+    window.addEventListener("scroll", () => {
+
+        main.classList.add("animate_left");
+
+    });
+
 });
 
 // const navSticky = () => {

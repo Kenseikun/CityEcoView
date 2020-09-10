@@ -12,6 +12,8 @@ body {
 }
 
 header{
+
+    overflow-x: hidden;
  
     background-image: url(images/bg_big.jpg);
     background-size: cover;
@@ -148,9 +150,12 @@ color: black;
     margin: 0 20px 0 0;
 }
 
+
 /* MAIN  */
 
 .main_container {
+
+    overflow-x: hidden;
     margin: 20px auto 20px auto;
     
     display: flex;
@@ -158,6 +163,9 @@ color: black;
     align-items: flex-start;
 
     width: 80%;
+
+    transform: translateX(-100%);
+    transition: .5s;
 
 }
 
@@ -653,7 +661,7 @@ background-color: #15E8D3;
         justify-content: space-around;
         align-items: center;
 
-        transform: translateX(100%);
+        transform: translateX(105%);
         transition: transform 0.3s ease-in;
 
         width: 70vw;
@@ -1194,6 +1202,12 @@ input[type=textarea]{
     font-size: 16px;
 }
 
+}
+
+/* ANIMATE LEFT  */
+
+.animate_left {
+    transform: translateX(0);
 }
 
 
