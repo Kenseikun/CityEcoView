@@ -629,7 +629,7 @@ background-color: #15E8D3;
 
     .burger {
     display: block;
-    transition:  0.5;
+    transition:  .3s;
     }
 
     .burger div {
@@ -644,7 +644,7 @@ background-color: #15E8D3;
         transform: rotate(-45deg) translate(-50%);
     }
     .toggle .line2 {
-        transition: .3s;
+        transition: .8s;
         transform: translateX(50%);
         opacity: 0;
     }
@@ -665,7 +665,6 @@ background-color: #15E8D3;
         width: 50%;
         background-color: rgba(0, 0, 0, 0.8);
 
-        /* display: flex; */
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
@@ -941,6 +940,12 @@ input:focus{
 
     .medias_icons-container a{
         font-size: 80px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
 }
 
