@@ -541,6 +541,7 @@ background-color: #15E8D3;
    
     .textarea{
      min-height: 300px;
+     resize: none;
     }
 
     input[type=text]:focus,
@@ -664,7 +665,7 @@ background-color: #15E8D3;
         width: 50%;
         background-color: rgba(0, 0, 0, 0.8);
 
-        display: flex;
+        /* display: flex; */
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
@@ -673,6 +674,8 @@ background-color: #15E8D3;
         transition: transform 0.3s ease-in;
 
         width: 70vw;
+
+        display: none;
     }
 
     .nav_navigation-ul a {
@@ -681,7 +684,9 @@ background-color: #15E8D3;
     }
 
     .nav-active {
+        display: flex;
         transform: translateX(0%);
+        transition: .3s;
     }
 
     .header_text {
