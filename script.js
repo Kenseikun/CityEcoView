@@ -1,26 +1,29 @@
-const navSlide = () => {
+document.addEventListener('DOMContentLoaded', function () {
 
-    const burger = document.querySelector(".burger");
-    const nav = document.querySelector(".nav_navigation-ul");
+    const navSlide = () => {
 
-    burger.addEventListener("click", () => {
-        nav.classList.toggle("nav-active");
-        burger.classList.toggle("toggle");
-    });
-}
+        const burger = document.querySelector(".burger");
+        const nav = document.querySelector(".nav_navigation-ul");
 
-navSlide();
+        burger.addEventListener("click", () => {
+            nav.classList.toggle("nav-active");
+            burger.classList.toggle("toggle");
+        });
+    }
 
-const formPrevet = () => {
-    const btn = document.querySelector(".medias_contact");
+    navSlide();
 
-    btn.addEventListener("submit", (e) => {
-        e.preventDefault()
-    })
-}
+    const formPrevet = () => {
+        const btn = document.querySelector(".medias_contact");
 
-formPrevet()
+        btn.addEventListener("submit", (e) => {
+            e.preventDefault()
+        })
+    }
 
+    formPrevet()
+
+});
 
 // const navSticky = () => {
 //     const navigate = document.querySelector(".section_nav");
