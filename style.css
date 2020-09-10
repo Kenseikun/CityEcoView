@@ -122,6 +122,8 @@ header{
 .header_welcome-text {
     font-size: 18px;
     letter-spacing: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
 }
 
 .header_btn{
@@ -165,7 +167,7 @@ color: black;
     width: 80%;
 
     transform: translateX(-100%);
-    transition: .5s;
+    transition: .5s ease-in-out;
 
 }
 
@@ -950,6 +952,13 @@ input:focus{
      font-size: 20px;
      border: 2px solid white;
  }
+
+ .burger div {
+    width: 40px;
+    height: 3px; 
+    background-color: white;
+    margin: 8px;
+}
     
     .header_welcome {
         font-size: 60px;

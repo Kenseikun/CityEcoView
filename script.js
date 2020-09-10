@@ -26,9 +26,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const main = document.querySelector(".main_container");
 
     window.addEventListener("scroll", () => {
-
-        main.classList.add("animate_left");
-
+        if (window.scrollY > 50) {
+            main.classList.add("animate_left");
+        }
     });
 
 });
