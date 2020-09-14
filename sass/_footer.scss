@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #212020;
+    }
+
+.footer a {
+    margin: 10px 30px 10px 30px;
+    text-decoration: none;
+    color: white;
+    }
+
+.footer a:hover {
+    color: gray;
+}

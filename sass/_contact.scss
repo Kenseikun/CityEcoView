@@ -1,0 +1,47 @@
+.contact_container {
+    margin: 20px auto 20px auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    width: 80%;
+
+}
+
+.contact_text-container {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.contact_title{
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.contact_title::before{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left:50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background-color: #15E8D3;
+}
+
+.contact_mail{
+    color: #15E8D3;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.contact_mail:hover{
+    color: #107a72;
+}
+.contact_logo{
+    height: 150px;
+    }

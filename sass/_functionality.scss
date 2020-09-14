@@ -1,0 +1,53 @@
+.functionality{
+    padding-bottom: 20px;
+    background-color: #f8f9fa;
+}
+
+.func_container{
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+.func_title{
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.func_title::before{
+content: "";
+position: absolute;
+bottom: -10px;
+left:50%;
+transform: translateX(-50%);
+width: 60px;
+height: 3px;
+background-color: #15E8D3;
+}
+
+.func_text{
+    margin: 30px auto;
+}
+
+.func_elements {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.func_elements div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 450px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 7px 7px 10px 0 rgba(76, 110, 245, .1);
+}
+
+.func_elements div img {
+    height: 400px;
+}
