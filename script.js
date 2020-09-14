@@ -11,17 +11,21 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    navSlide();
+    const navSticky = () => {
+        const navigate = document.querySelector(".section_nav");
 
-    const formPrevet = () => {
-        const btn = document.querySelector(".medias_contact");
-
-        btn.addEventListener("submit", (e) => {
-            e.preventDefault()
-        })
+        window.addEventListener("scroll", function () {
+            if (window.scrollY > 100) {
+                navigate.classList.add("nav_sticky");
+            } else {
+                navigate.classList.remove("nav_sticky");
+            }
+        });
     }
+    navSticky()
 
-    formPrevet()
+
+    navSlide();
 
     const main = document.querySelector(".main_container");
 
@@ -33,15 +37,3 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
-// const navSticky = () => {
-//     const navigate = document.querySelector(".section_nav");
-
-//     window.addEventListener("scroll", function () {
-//         if (window.scrollY > 100) {
-//             navigate.classList.add("nav_sticky");
-//         } else {
-//             navigate.classList.remove("nav_sticky");
-//         }
-//     });
-// }
-// navSticky()
