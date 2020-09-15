@@ -30,11 +30,11 @@
     transform: translateX(-50%);
     width: 60px;
     height: 3px;
-    background-color: #15E8D3;
+    background-color: $base-col;
 }
 
 .contact_mail{
-    color: #15E8D3;
+    color: $base-col;
     text-transform: none;
     text-decoration: none;
 }

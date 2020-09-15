@@ -200,6 +200,11 @@ li {
   list-style: none;
 }
 
+.main_text-arrow {
+  font-size: 14px;
+  color: #15E8D3;
+}
+
 .main_text-container {
   display: -webkit-box;
   display: -ms-flexbox;

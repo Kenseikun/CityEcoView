@@ -61,7 +61,7 @@ header{
 }
 
 .nav_navigation-ul a:hover{
-    background-color: #15E8D3;
+    background-color: $base-col;
     color: black;
 }
 
@@ -134,7 +134,7 @@ header{
 
 
 .header_btn:hover{
-background-color: #15E8D3;
+background-color: $base-col;
 color: black;
 }
 
