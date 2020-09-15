@@ -667,7 +667,7 @@ input[type=email]:focus,
 
 .medias_icons-container a {
   color: white;
-  font-size: 80px;
+  font-size: 60px;
   margin: 20px;
   padding: 20px;
   -webkit-transition: .3s;
@@ -1184,7 +1184,7 @@ input[type=email]:focus,
             justify-content: center;
   }
   .medias_icons-container a {
-    font-size: 120px;
+    font-size: 80px;
   }
   .footer a {
     font-size: 12px;
@@ -1268,7 +1268,7 @@ input[type=email]:focus,
     height: 200px;
   }
   .medias_icons-container a {
-    font-size: 80px;
+    font-size: 60px;
   }
   .footer a {
     font-size: 16px;
