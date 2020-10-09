@@ -246,6 +246,10 @@ li {
 .functionality {
   padding-bottom: 20px;
   background-color: #f8f9fa;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: 0.8s ease-in-out;
+  transition: 0.8s ease-in-out;
 }
 
 .func_container {
@@ -310,6 +314,10 @@ li {
 
 .example {
   padding-bottom: 20px;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: 0.8s ease-in-out;
+  transition: 0.8s ease-in-out;
 }
 
 .example_container {
@@ -383,6 +391,10 @@ li {
 
 .location {
   background-color: #f8f9fa;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: 0.8s ease-in-out;
+  transition: 0.8s ease-in-out;
 }
 
 .location_container {
@@ -403,6 +415,12 @@ li {
 
 .location_warsaw {
   height: 250px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
 }
 
 .location_text-container {
@@ -440,11 +458,15 @@ li {
           transform: translateX(-50%);
   width: 60px;
   height: 3px;
-  background-color: #15E8D3;
+  background-color: #15e8d3;
 }
 
 .team {
   padding-bottom: 20px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .team_container {
@@ -1278,6 +1300,16 @@ input[type=email]:focus,
 .animate_left {
   -webkit-transform: translateX(0);
           transform: translateX(0);
+}
+
+.animate_right {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.animate_scale {
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .main_business {
