@@ -11,6 +11,11 @@ body {
   overflow-x: hidden;
 }
 
+section {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 header {
   overflow-x: hidden;
   background-image: url(../images/bg_big.jpg);
@@ -18,8 +23,8 @@ header {
   background-position: center;
   height: 100vh;
   color: white;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .section_nav {
@@ -50,7 +55,8 @@ header {
   color: white;
 }
 
-.nav_logo, .nav_logo img {
+.nav_logo,
+.nav_logo img {
   font-size: 40px;
   font-weight: bold;
   height: 80px;
@@ -419,8 +425,8 @@ li {
           transform: scale(0);
   -webkit-transition: 1s ease-in-out;
   transition: 1s ease-in-out;
-  -webkit-transition-delay: 0.5s;
-          transition-delay: 0.5s;
+  -webkit-transition-delay: 0.8s;
+          transition-delay: 0.8s;
 }
 
 .location_text-container {

@@ -1,144 +1,144 @@
-header{
+section {
+  width: 100vw;
+  overflow-x: hidden;
+}
+header {
+  overflow-x: hidden;
 
-    overflow-x: hidden;
- 
-    background-image: url(../images/bg_big.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    color: white;
+  background-image: url(../images/bg_big.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
 
-    transition: .5s;
+  transition: 0.5s;
 }
 
 .section_nav {
-    margin: 0 auto;
-    width: 80%;
-    height: 100px;
+  margin: 0 auto;
+  width: 80%;
+  height: 100px;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
 }
 
 /* LOGO_TOP_LEFT */
 
-.nav_logo{
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: white;
+.nav_logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
 }
 
-.nav_logo, .nav_logo img{
-    font-size: 40px;
-    font-weight: bold;
-    height: 80px;
+.nav_logo,
+.nav_logo img {
+  font-size: 40px;
+  font-weight: bold;
+  height: 80px;
 }
 
 /* NAV TOP RIGHT */
 
-.nav_navigation-ul{
-    display: flex;
-    justify-content: space-around;
-    width: 60%;
+.nav_navigation-ul {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
 }
 
 .nav_navigation-ul li {
-    list-style: none;
+  list-style: none;
 }
 .nav_navigation-ul a {
-    color: white;
-    font-size: 18px;
-    font-weight: 300;
-    text-decoration: none;
-    padding: 10px 20px;
-    border: 1px solid white;
-    background-color: rgba(0, 0, 0, 0.5);
-    transition: 0.3s;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid white;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
 }
 
-.nav_navigation-ul a:hover{
-    background-color: $base-col;
-    color: black;
+.nav_navigation-ul a:hover {
+  background-color: $base-col;
+  color: black;
 }
 
 /* BURGER */
 
 .burger {
-    display: none;
-    cursor: pointer;
+  display: none;
+  cursor: pointer;
 }
 
 .burger div {
-    width: 40px;
-    height: 5px; 
-    background-color: white;
-    margin: 8px;
-
+  width: 40px;
+  height: 5px;
+  background-color: white;
+  margin: 8px;
 }
 
 /* HEADER SECTION */
 
 .header_text {
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    column-gap: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  column-gap: 100px;
 
-    width: 80%;
-    height: calc(100vh - 100px);
-
+  width: 80%;
+  height: calc(100vh - 100px);
 }
 
-.header_text-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.header_text-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.header_welcome{
-    margin: 0px auto 10px auto;
-    letter-spacing: 2px;
+.header_welcome {
+  margin: 0px auto 10px auto;
+  letter-spacing: 2px;
 
-    font-size: 70px;
+  font-size: 70px;
 }
 
 .header_welcome-text {
-    font-size: 18px;
-    letter-spacing: 1px;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
 }
 
-.header_btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 50px;
-    border: 1px solid white;
-    background-color: transparent;
-    font-size: 20px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    transition: 0.3s;
-    text-decoration: none;
-    cursor: pointer;
+.header_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  border: 1px solid white;
+  background-color: transparent;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  text-decoration: none;
+  cursor: pointer;
 
-    margin: 30px 0 0 20px;
+  margin: 30px 0 0 20px;
 }
 
-
-.header_btn:hover{
-background-color: $base-col;
-color: black;
+.header_btn:hover {
+  background-color: $base-col;
+  color: black;
 }
 
-.header_logo{
-    height: 50vh;
-    margin: 0 20px 0 0;
+.header_logo {
+  height: 50vh;
+  margin: 0 20px 0 0;
 }
