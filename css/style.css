@@ -804,12 +804,16 @@ input[type=email]:focus,
     transition: -webkit-transform 0.3s ease-in;
     transition: transform 0.3s ease-in;
     transition: transform 0.3s ease-in, -webkit-transform 0.3s ease-in;
+    display: none;
   }
   .nav_navigation-ul a {
     font-size: 70px;
     border: 2px solid white;
   }
   .nav-active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
     -webkit-transition: 0.3s;
