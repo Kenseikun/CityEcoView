@@ -1,7 +1,7 @@
 .team {
   padding-bottom: 20px;
   transform: scale(0);
-  transition: 0.3s ease-in-out;
+  transition: 2s ease-in-out;
 }
 
 .team_container {
@@ -44,15 +44,16 @@
   justify-content: center;
   align-items: center;
   margin: 30px auto;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   padding: 20px;
+  font-size: 0.8em;
   background-color: white;
   box-shadow: 7px 7px 10px 0 rgba(76, 110, 245, 0.1);
 }
 
 .team_elements div img {
-  height: 150px;
+  height: 80px;
 }
 
 .team_elements .t_text {
