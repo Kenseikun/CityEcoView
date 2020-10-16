@@ -1,6 +1,6 @@
 # CityEcoView 
 
-<img src="images/mockup.jpg" height="400">
+<img src="images/mockup.jpg" height="300">
 
 ### CityEcoView is a photo-comment-based platform allowing users to rank businesses, institutions, and other establishments from the ecological point of view.
 
