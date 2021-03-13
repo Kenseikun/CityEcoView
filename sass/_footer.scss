@@ -1,16 +1,16 @@
-.footer{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    background-color: #212020;
-    }
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #181e1b;
+}
 
 .footer a {
-    margin: 10px 30px 10px 30px;
-    text-decoration: none;
-    color: white;
-    }
+  margin: 10px 30px 10px 30px;
+  text-decoration: none;
+  color: white;
+}
 
 .footer a:hover {
-    color: gray;
+  background-color: #181e1b;
 }

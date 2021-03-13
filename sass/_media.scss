@@ -6,10 +6,6 @@
     overflow-x: hidden;
   }
 
-  .header_logo {
-    display: none;
-  }
-
   .burger {
     display: block;
     transition: 0.3s;
@@ -37,7 +33,7 @@
 
   .nav_logo,
   .nav_logo img {
-    height: 100px;
+    height: 40px;
   }
 
   .nav_navigation-ul {
@@ -69,16 +65,19 @@
     transition: 0.3s;
   }
 
+  .nav_sticky {
+    padding: 60px;
+  }
+
   .header_text {
     text-align: center;
   }
 
   .header_text-section {
-    align-items: center;
   }
 
   .header_welcome {
-    font-size: 180px;
+    font-size: 80px;
   }
 
   .header_welcome-text {
@@ -96,12 +95,25 @@
     width: 95%;
   }
 
+  .main_text-container {
+    display: flex;
+    flex-direction: column;
+  }
+
   .main_logo {
     display: none;
   }
 
   .main_title {
     font-size: 50px;
+  }
+
+  .main_text {
+    width: 100%;
+  }
+
+  .main_arrow {
+    margin: 0;
   }
 
   .main_text-container {
@@ -278,11 +290,15 @@
   }
 
   .header_welcome {
-    font-size: 120px;
+    font-size: 60px;
+  }
+
+  .header_welcome-text {
+    font-size: 30px;
   }
 
   .main_title {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .func_title {
@@ -350,7 +366,7 @@
 
   .nav_logo,
   .nav_logo img {
-    height: 50px;
+    height: 30px;
     font-size: 20px;
   }
 
@@ -363,6 +379,10 @@
     border: 2px solid white;
   }
 
+  .nav_sticky {
+    padding: 40px;
+  }
+
   .burger div {
     width: 40px;
     height: 3px;
@@ -371,7 +391,7 @@
   }
 
   .header_welcome {
-    font-size: 80px;
+    font-size: 45px;
   }
   .header_welcome-text {
     font-size: 20px;
@@ -380,7 +400,7 @@
   .header_btn {
     font-size: 16px;
     width: 200px;
-    height: 100px;
+    height: 70px;
     margin: 20px auto;
   }
 
@@ -497,10 +517,14 @@
   input[type="text"],
   input[type="email"],
   .textarea {
-    padding: 40px 10px;
+    padding: 20px 10px;
     width: 300px;
     border: 1px solid black;
-    font-size: 30px;
+    font-size: 15px;
+  }
+
+  .form_button {
+    font-size: 16px;
   }
 
   .textarea {
@@ -512,7 +536,7 @@
     justify-content: center;
   }
   .medias_icons-container a {
-    font-size: 80px;
+    font-size: 20px;
   }
 
   .footer a {
@@ -527,10 +551,13 @@
 
   .nav_logo,
   .nav_logo img {
-    height: 60px;
+    height: 30px;
     font-size: 20px;
   }
 
+  .na_sticky {
+    padding: 20px;
+  }
   .nav_navigation-ul {
     width: 100%;
     align-items: flex-start;
@@ -543,7 +570,7 @@
   }
 
   .header_welcome {
-    font-size: 70px;
+    font-size: 40px;
   }
   .header_welcome-text {
     font-size: 18px;
@@ -613,7 +640,7 @@
   }
 
   .medias_icons-container a {
-    font-size: 60px;
+    font-size: 20px;
   }
 
   .footer a {
