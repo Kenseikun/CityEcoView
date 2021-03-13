@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const btnFunc = document.querySelector(".nav__btn__func");
     const btnTeam = document.querySelector(".nav__btn__team");
     const btnContact = document.querySelector(".nav__btn__contact");
-    const btnBusiness = document.querySelector(".nav__btn__business");
 
     btnWelcome.addEventListener("click", () => {
       nav.classList.toggle("nav-active");
@@ -21,11 +20,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     btnTeam.addEventListener("click", () => {
-      nav.classList.toggle("nav-active");
-      burger.classList.toggle("toggle");
-    });
-
-    btnBusiness.addEventListener("click", () => {
       nav.classList.toggle("nav-active");
       burger.classList.toggle("toggle");
     });

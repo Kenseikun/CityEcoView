@@ -2,6 +2,7 @@
   padding-bottom: 20px;
   transform: scale(0);
   transition: 2s ease-in-out;
+  margin: 10px;
 }
 
 .team_container {
@@ -35,6 +36,8 @@
 .team_elements {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  margin: 15px auto;
   width: 100%;
 }
 
@@ -53,14 +56,15 @@
 }
 
 .team_elements div img {
-  height: 80px;
+  height: 50px;
 }
 
 .team_elements .t_text {
   margin: 10px auto;
+  font-size: 10px;
 }
 
 .team_text {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 14px;
 }
