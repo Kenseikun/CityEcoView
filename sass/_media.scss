@@ -259,6 +259,13 @@
   .footer a {
     font-size: 20px;
   }
+
+  .nav__business__back {
+    display: block;
+    color: white;
+    font-size: 56px;
+    margin: auto 20px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -329,6 +336,10 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .nav__business__back {
+    font-size: 36px;
   }
 }
 
