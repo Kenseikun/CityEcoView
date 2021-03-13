@@ -5,7 +5,7 @@ section {
 header {
   overflow-x: hidden;
 
-  background-image: url(../../CityEcoView/images/bg_big.jpg);
+  background-image: url(../../CityEcoView/images/Slider.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -31,14 +31,12 @@ header {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: white;
 }
 
 .nav_logo,
 .nav_logo img {
-  font-size: 40px;
-  font-weight: bold;
-  height: 80px;
+  height: 40px;
+  margin: 0 10px;
 }
 
 /* NAV TOP RIGHT */
@@ -58,9 +56,11 @@ header {
   font-weight: 300;
   text-decoration: none;
   padding: 10px 20px;
-  border: 1px solid white;
-  background-color: rgba(0, 0, 0, 0.5);
   transition: 0.3s;
+}
+
+.nav_navigation-ul a.contact {
+  background-color: $base-col;
 }
 
 .nav_navigation-ul a:hover {
@@ -87,9 +87,6 @@ header {
 .header_text {
   margin: 0 auto;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  column-gap: 100px;
 
   width: 80%;
   height: calc(100vh - 100px);
@@ -99,20 +96,29 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: left;
+  width: 100%;
 }
 
 .header_welcome {
-  margin: 0px auto 10px auto;
+  margin: 10px;
   letter-spacing: 2px;
+  font-weight: 300;
 
+  width: 50%;
   font-size: 70px;
 }
 
 .header_welcome-text {
-  font-size: 18px;
+  font-size: 25px;
   letter-spacing: 1px;
-  background-color: rgba(0, 0, 0, 0.5);
+
   padding: 10px;
+
+  font-weight: 200;
+
+  width: 60%;
+  letter-spacing: 2px;
 }
 
 .header_btn {
@@ -121,16 +127,15 @@ header {
   align-items: center;
   width: 200px;
   height: 50px;
-  border: 1px solid white;
   background-color: transparent;
   font-size: 20px;
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: $base-col;
   transition: 0.3s;
   text-decoration: none;
   cursor: pointer;
 
-  margin: 30px 0 0 20px;
+  margin: 30px 0;
 }
 
 .header_btn:hover {
