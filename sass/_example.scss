@@ -6,26 +6,15 @@
 
 .example_container {
   margin: 0 auto;
-  text-align: center;
+
   width: 80%;
 }
 
 .example_title {
   position: relative;
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 400;
   margin-top: 20px;
-}
-
-.example_title::before {
-  content: "";
-  position: absolute;
-  bottom: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 60px;
-  height: 3px;
-  background-color: $base-col;
 }
 
 .example_text {
@@ -57,4 +46,9 @@
 
 .example_elements .e_text {
   margin: 10px auto;
+  font-weight: 800;
+}
+
+.example_elements .e_text span {
+  font-weight: 300;
 }
