@@ -1,9 +1,11 @@
-.main_business{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.main_business {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  transform: inherit;
 }
 
-.business_text{
-    margin: 10px auto 40px auto;
+.business_text {
+  margin: 10px auto 40px auto;
 }

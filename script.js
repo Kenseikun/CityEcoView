@@ -3,6 +3,40 @@ document.addEventListener("DOMContentLoaded", function () {
     const burger = document.querySelector(".burger");
     const nav = document.querySelector(".nav_navigation-ul");
 
+    // MENU BTNS TOGGLE MENU HAMBURGER BUTTON | START
+    const btnWelcome = document.querySelector(".nav__btn__welcome");
+    const btnFunc = document.querySelector(".nav__btn__func");
+    const btnTeam = document.querySelector(".nav__btn__team");
+    const btnContact = document.querySelector(".nav__btn__contact");
+    const btnBusiness = document.querySelector(".nav__btn__business");
+
+    btnWelcome.addEventListener("click", () => {
+      nav.classList.toggle("nav-active");
+      burger.classList.toggle("toggle");
+    });
+
+    btnFunc.addEventListener("click", () => {
+      nav.classList.toggle("nav-active");
+      burger.classList.toggle("toggle");
+    });
+
+    btnTeam.addEventListener("click", () => {
+      nav.classList.toggle("nav-active");
+      burger.classList.toggle("toggle");
+    });
+
+    btnBusiness.addEventListener("click", () => {
+      nav.classList.toggle("nav-active");
+      burger.classList.toggle("toggle");
+    });
+
+    btnContact.addEventListener("click", () => {
+      nav.classList.toggle("nav-active");
+      burger.classList.toggle("toggle");
+    });
+
+    // | END
+
     burger.addEventListener("click", () => {
       nav.classList.toggle("nav-active");
       burger.classList.toggle("toggle");
