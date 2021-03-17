@@ -19,7 +19,7 @@ section {
 
 header {
   overflow-x: hidden;
-  background-image: url(../../CityEcoView/images/Slider.jpg);
+  background-image: url(./images/Slider.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
