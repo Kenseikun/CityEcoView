@@ -747,12 +747,29 @@ input[type="email"]:focus,
 }
 
 .business_text {
-  margin: 10px auto 40px auto;
-  width: 100%;
+  margin: 0px auto 10px auto;
 }
 
 .nav__business__back {
   display: none;
+}
+
+.main_text {
+  width: 20vw;
+}
+
+.main_text_btn {
+  margin: 10px auto;
+  padding: 20px 40px;
+  background-color: #15e8d3;
+  border: none;
+  outline: none;
+  text-decoration: none;
+
+  color: white;
+  font-weight: 600;
+
+  cursor: pointer;
 }
 
 @media (max-width: 1024px) {
@@ -959,10 +976,10 @@ input[type="email"]:focus,
     height: 300px;
   }
   .t_text {
-    font-size: 30px;
+    font-size: 80px;
   }
   .team_text {
-    font-size: 30px;
+    font-size: 80px;
   }
   .contact_title {
     font-size: 50px;
@@ -1200,12 +1217,12 @@ input[type="email"]:focus,
     font-size: 30px;
   }
   .team_elements div {
-    width: 350px;
-    height: 350px;
+    width: 150px;
+    height: 150px;
   }
   .team_elements div img {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
   }
   .team_text {
     font-size: 16px;
@@ -1344,9 +1361,19 @@ input[type="email"]:focus,
   }
   .medias_icons-container a {
     font-size: 20px;
+    margin: 0px;
   }
   .footer a {
     font-size: 16px;
+  }
+
+  .team_elements div {
+    width: 120px;
+    height: 150px;
+  }
+  .team_elements div img {
+    width: 100px;
+    height: 100px;
   }
 }
 /*# sourceMappingURL=style.css.map */
